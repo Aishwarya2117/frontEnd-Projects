@@ -1,8 +1,8 @@
 //import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 
 const App =() =>{
-return <div> 
+return <div>
   <nav>
     <div className="logo">
       <img src="nike_logo.png" alt="logo"/>
