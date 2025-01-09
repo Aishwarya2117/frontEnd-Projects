@@ -1,9 +1,10 @@
 //import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero';
 
 const App =() =>{
 return <div>
-  <nav>
+  <nav className="container">
     <div className="logo">
       <img src="nike_logo.png" alt="logo"/>
     </div>
@@ -15,6 +16,8 @@ return <div>
     </ul>
     <button>Login</button>
   </nav>
+  <Hero/>
+ 
 </div>
   
 

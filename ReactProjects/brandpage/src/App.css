@@ -2,11 +2,16 @@ nav{
   display: flex;
   justify-content: space-between;
    max-width: 1280px;
-   margin:0 auto ;
+   align-items: centre;
    height: 72px;
 }
 * {
   margin: 5;
+}
+
+.container{
+  margin: 0;
+  max-width: 1280;
 }
 button{
   all: unset;
@@ -25,4 +30,40 @@ nav ul {
 
 .logo src{
   height: 20px;
+}
+
+.page
+{
+  display: flex;
+ 
+  align-items: center;
+height: calc(100vh-72px);
+  }
+.page h1{
+  font-weight: 800;
+  font-size: 108 px;
+  line-height: 102px;
+}
+
+.page p{
+  font-weight: 600;
+  color: gray;
+}
+
+.page-btn{
+  display: flex;
+
+  gap: 40px;
+
+
+}
+.secondary-btn{
+  background: transparent;
+  color: black;
+  border: 1px solid gray;;
+
+}
+
+.brand-icons{
+  gap: 20px;
 }
