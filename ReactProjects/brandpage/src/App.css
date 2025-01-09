@@ -1,69 +1,97 @@
 nav{
   display: flex;
   justify-content: space-between;
-   max-width: 1280px;
-   align-items: centre;
-   height: 72px;
+  height: 72px;
+  align-items: center;
+  padding-left: 20%;
+  
+
 }
 * {
-  margin: 5;
+  margin: 0;
 }
 
-.container{
-  margin: 0;
-  max-width: 1280;
-}
-button{
-  all: unset;
-  padding: 6px 16px;
-  height: 26px;
-  background-color: red;
-  color: white;
-  font: weight 500px;
-}
 nav ul {
 
   display: flex;
   list-style: none;
   gap: 24px;
 }
+.page
+{
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px);
+  padding-left: 20%;
+  
+  }
+
+  .page-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+.container{
+  margin: 0;
+  max-width: 1000px;
+  
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  height: 26px;
+  background-color: rgb(230, 65, 65);
+  color: white;
+  font: weight 40px;
+}
+
 
 .logo src{
   height: 20px;
 }
 
-.page
-{
-  display: flex;
- 
-  align-items: center;
-height: calc(100vh-72px);
-  }
-.page h1{
-  font-weight: 800;
-  font-size: 108 px;
-  line-height: 102px;
+
+.page-content h1{
+  font-weight: 1000;
+  font-size: 50px;
+  line-height: 50px;
+  max-width: 300px;
+  margin-top: 40px;
 }
 
 .page p{
   font-weight: 600;
   color: gray;
+  max-width: 400px;
 }
 
 .page-btn{
   display: flex;
-
+  
   gap: 40px;
-
-
 }
 .secondary-btn{
   background: transparent;
   color: black;
-  border: 1px solid gray;;
+  border: 1px solid rgb(121, 118, 118);;
+}
 
+.page-btn button{
+  font-size: 24px;
 }
 
 .brand-icons{
-  gap: 20px;
+  display: flex;
+  gap: 16px;
+}
+
+.shopping {
+  font-size: 14px;
+  margin-bottom: 8px;
+  
+}
+
+.shopping p{
+  color: rgb(82, 80, 80);
 }

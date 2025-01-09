@@ -19,7 +19,7 @@ const Hero =()=>{
         </div>
     </div>
  <div className="page-img">
-    <img src="shoes.png" alt="shoes"/> </div>
+    <img src="shoe_image.png" alt="shoes"/> </div>
  </main>);
 };
 export default Hero;
